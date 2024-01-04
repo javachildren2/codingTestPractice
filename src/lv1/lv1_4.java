@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 public class lv1_4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        int num= sc.nextInt();
-        String s = "";
+        Scanner scan = new Scanner(System.in);
 
-        for(int i=1;i<=num/4;i++){
-           s+="long ";
+        int number = scan.nextInt();
+        String str = "";
+
+        for(int i=1; i<=number/4; i++) {
+            str += "long ";
         }
-        s+="int";
-        System.out.println(s);
+        System.out.println(str + "int");
+
     }
 }

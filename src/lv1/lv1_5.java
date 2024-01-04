@@ -1,7 +1,6 @@
 package lv1;
 
 import java.io.*;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class lv1_5 {
