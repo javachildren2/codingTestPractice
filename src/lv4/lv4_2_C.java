@@ -3,9 +3,8 @@ package lv4;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.time.Instant;
 
-public class lv4_2 {
+public class lv4_2_C {
     public static void main(String[] args) throws IOException {
         //1 3 5 7 9
 
