@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ce6233-a9a6-41f4-927e-4cd3a1bbcb08" name="Changes" comment="Day1">
-      <change afterPath="$PROJECT_DIR$/src/lv4/lv4_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv4/lv4_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv4/lv4_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv4/lv4_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv4/lv4_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv4/lv4_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv4/lv4_9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv3/lv3_5_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv3/lv3_5_C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv3/lv3_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv3/lv3_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv3/lv3_7_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv3/lv3_7_C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv3/lv3_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv3/lv3_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv4/lv4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv4/lv4_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv4/lv4_2_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv4/lv4_2_C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv4/lv4_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv4/lv4_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv4/lv4_4_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv4/lv4_4_C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lv4/lv4_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv4/lv4_6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +48,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lv4_7">
-    <configuration name="lv3_7_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv3.lv3_7_C" />
-      <module name="codingTestPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lv4_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv4.lv4_3" />
+  <component name="RunManager" selected="Application.lv4_10">
+    <configuration name="lv4_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv4.lv4_10" />
       <module name="codingTestPractice" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lv4_4_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv4.lv4_4_C" />
+    <configuration name="lv4_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv4.lv4_6" />
       <module name="codingTestPractice" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lv4_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv4.lv4_5" />
+    <configuration name="lv4_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv4.lv4_8" />
       <module name="codingTestPractice" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +88,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lv4_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv4.lv4_7" />
+    <configuration name="lv4_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv4.lv4_9" />
+      <module name="codingTestPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv4.sss" />
       <module name="codingTestPractice" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lv4_7" />
-        <item itemvalue="Application.lv4_5" />
-        <item itemvalue="Application.lv3_7_C" />
-        <item itemvalue="Application.lv4_4_C" />
-        <item itemvalue="Application.lv4_3" />
+        <item itemvalue="Application.lv4_10" />
+        <item itemvalue="Application.lv4_9" />
+        <item itemvalue="Application.lv4_6" />
+        <item itemvalue="Application.lv4_8" />
+        <item itemvalue="Application.sss" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +141,8 @@
       <workItem from="1704681102258" duration="17981000" />
       <workItem from="1704802450004" duration="9130000" />
       <workItem from="1704854994894" duration="20844000" />
-      <workItem from="1704972696745" duration="9564000" />
+      <workItem from="1704972696745" duration="15664000" />
+      <workItem from="1705031818808" duration="8938000" />
     </task>
     <servers />
   </component>
