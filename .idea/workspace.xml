@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ce6233-a9a6-41f4-927e-4cd3a1bbcb08" name="Changes" comment="Day1">
-      <change afterPath="$PROJECT_DIR$/src/lv4/lv4_12_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv5/lv5_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv5/lv5_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv5/lv5_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv5/kkkk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv5/lv5_4_X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv5/lv5_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv4/lv4_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv4/lv4_11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,35 +46,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lv5_3">
-    <configuration name="lv4_12_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv4.lv4_12_C" />
-      <module name="codingTestPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lv4_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv4.lv4_13" />
-      <module name="codingTestPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lv5_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv5.lv5_1" />
+  <component name="RunManager" selected="Application.lv5_5">
+    <configuration name="kkkk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv5.kkkk" />
       <module name="codingTestPractice" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +86,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lv5_4_X" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv5.lv5_4_X" />
+      <module name="codingTestPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lv5_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv5.lv5_5" />
+      <module name="codingTestPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lv5_5" />
+        <item itemvalue="Application.kkkk" />
+        <item itemvalue="Application.lv5_4_X" />
         <item itemvalue="Application.lv5_3" />
         <item itemvalue="Application.lv5_2" />
-        <item itemvalue="Application.lv5_1" />
-        <item itemvalue="Application.lv4_13" />
-        <item itemvalue="Application.lv4_12_C" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +144,7 @@
       <workItem from="1705111566829" duration="10637000" />
       <workItem from="1705279291872" duration="4253000" />
       <workItem from="1705321765071" duration="6245000" />
+      <workItem from="1705379961602" duration="9354000" />
     </task>
     <servers />
   </component>
