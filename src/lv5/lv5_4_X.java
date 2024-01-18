@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 public class lv5_4_X {
+    //브루트 포스 블랙잭 2798
     public static void main(String[] args) throws IOException {
         //3개의 카드였기에 3중for문 4개의 카드를 뽑는다면 4중 for문을 이용, 시간복잡도가 매우느리다(O(N^4))
 

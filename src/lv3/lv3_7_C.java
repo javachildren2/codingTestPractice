@@ -3,6 +3,7 @@ package lv3;
 import java.util.Scanner;
 
 public class lv3_7_C {
+    //2908 상수
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String number = sc.nextLine();

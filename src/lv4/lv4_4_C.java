@@ -10,7 +10,7 @@ import java.util.Set;
 
 
 public class lv4_4_C {
-
+    //1157 단어 공부
     public static String wordDistinct(String s) {
         if (s == null || s.isBlank()) {
             return s;

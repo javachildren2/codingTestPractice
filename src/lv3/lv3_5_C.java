@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class lv3_5_C {
+    //문자열 반복 2675번
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
