@@ -3,6 +3,7 @@ package lv6;
 import java.util.*;
 
 public class lv6_3 {
+    //1181 단어정렬
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = Integer.parseInt(scanner.nextLine());

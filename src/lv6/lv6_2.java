@@ -9,6 +9,7 @@ import java.util.StringTokenizer;
 import java.io.IOException;
 
 public class lv6_2 {
+    //11650 좌표정렬
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
