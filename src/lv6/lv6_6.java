@@ -19,6 +19,7 @@ public class lv6_6 {
         }
 
         HashMap<Integer, Integer> cMap = new HashMap<>();
+
         for (int i = 0; i < N; i++) {
             cMap.put(arr[i], 1);
         }
@@ -26,7 +27,7 @@ public class lv6_6 {
         int M = Integer.parseInt(br.readLine());
         int[] arr2 = new int[M];
         for (int i = 0; i < M; i++) {
-        st = new StringTokenizer(br.readLine());
+            st = new StringTokenizer(br.readLine());
             arr2[i] = Integer.parseInt(st.nextToken());
         }
 

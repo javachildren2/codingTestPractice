@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ce6233-a9a6-41f4-927e-4cd3a1bbcb08" name="Changes" comment="Day1">
-      <change afterPath="$PROJECT_DIR$/src/lv6/lv6_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv6/lv6_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv6/lv6_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv6/lv6_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv6/lv6_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv6/lv6_9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv6/lv6_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv6/lv6_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv6/lv6_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv6/lv6_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lv6/lv6_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv6/lv6_8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +45,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lv6_8">
-    <configuration name="lv6_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv6.lv6_2" />
+  <component name="RunManager" selected="Application.lv6_5">
+    <configuration name="lv6_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv6.lv6_5" />
       <module name="codingTestPractice" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lv6.lv6_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv6.lv6_5" />
+    <configuration name="lv6_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv6.lv6_9" />
       <module name="codingTestPractice" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lv6_5" />
+        <item itemvalue="Application.lv6_9" />
         <item itemvalue="Application.lv6_8" />
         <item itemvalue="Application.lv6_7" />
         <item itemvalue="Application.lv6_6" />
-        <item itemvalue="Application.lv6_2" />
-        <item itemvalue="Application.lv6.lv6_5" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +154,9 @@
       <workItem from="1705729321566" duration="10271000" />
       <workItem from="1705763841049" duration="3443000" />
       <workItem from="1705814778055" duration="10632000" />
-      <workItem from="1705838606281" duration="2536000" />
+      <workItem from="1705838606281" duration="4746000" />
+      <workItem from="1705901394293" duration="4202000" />
+      <workItem from="1705924789298" duration="3734000" />
     </task>
     <servers />
   </component>

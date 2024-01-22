@@ -31,8 +31,8 @@ public class lv6_8 {
         List<String> keys = getKeysByValue(elMap, "enter");
         Collections.sort(keys, Collections.reverseOrder());
 
-        for(String name:keys){
-            System.out.println(name);
+        for(String key:keys){
+            System.out.println(key);
         }
 
 
