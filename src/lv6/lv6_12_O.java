@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
-public class lv6_12 {
+public class lv6_12_O {
     //1269 대칭 차집합
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

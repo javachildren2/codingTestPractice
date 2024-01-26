@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class lv6_11 {
+public class lv6_11_O {
     //1764 듣보잡
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,7 +18,7 @@ public class lv6_11 {
             people.add(br.readLine());
         }
         StringBuilder sb = new StringBuilder();
-        Set<String> sPeople = new TreeSet<>();
+        Set<String> sPeople = new TreeSet<>();      //사전순서로 만들기 위해 TreeSet을 사용했다 정도만 알고 넘겨도 되는 코드
         for(int i=0;i<M;i++){
             String s = br.readLine();
             if(people.contains(s)){

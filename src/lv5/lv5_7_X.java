@@ -43,7 +43,6 @@ public class lv5_7_X {
         }
 
         int sol = Integer.MAX_VALUE;
-        System.out.println(sol);
 
         for(int i=0; i<=row - 8; i++) {
             for(int j=0; j<=col - 8; j++) {

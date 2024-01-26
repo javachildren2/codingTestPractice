@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class lv7_1 {
+public class lv7_1_C {
     //1934 최소공배수
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -44,3 +44,5 @@ public class lv7_1 {
         System.out.println(sb);
     }
 }
+
+
