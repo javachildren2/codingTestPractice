@@ -33,13 +33,17 @@ public class lv7_4 {
         }
 
         int gcd = differences.get(0);
+        System.out.println("gcd = " + gcd);
         for (int i = 1; i < differences.size(); i++) {
+            System.out.println("gcd = " + gcd);
             gcd = gcd(gcd, differences.get(i));
         }
 
 
         int cnt = 0;
         for (int i = 1; i < N; i++) {
+            System.out.println("numbers1. = " + numbers.get(i));
+            System.out.println("numbers2. = " + numbers.get(i-1));
             cnt += (numbers.get(i) - numbers.get(i - 1)) / gcd - 1;
         }
 
