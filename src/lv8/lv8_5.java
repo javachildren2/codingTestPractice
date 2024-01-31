@@ -1,38 +1,54 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+package lv8;
+
+import java.io.*;
+import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class lv8_5{
+public class lv8_5 {
+    //12789 도키도키 간식 드리미
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int N = Integer.parseInt(br.readLine());
+
+        int[] line = new int[N];
+
         StringTokenizer st = new StringTokenizer(br.readLine());
-
-        int[] queue = new int[N];
         for (int i = 0; i < N; i++) {
-            queue[i] = Integer.parseInt(st.nextToken());
+            line[i] = Integer.parseInt(st.nextToken());
         }
 
-        if (isPossibleToGetSnack(N, queue)) {
-            System.out.println("Nice");
-        } else {
-            System.out.println("Sad");
-        }
+
+        System.out.println(solution(line));
+
     }
 
-    private static boolean isPossibleToGetSnack(int N, int[] queue) {
-        int expectedNumber = 1; // 기대되는 번호표의 값
-        for (int i = 0; i < N; i++) {
-            if (queue[i] == expectedNumber) {
-                expectedNumber++; // 기대되는 번호표 값 증가
-            } else if (i > 0 && queue[i - 1] == expectedNumber) {
-                // 이동 가능한 공간이 있을 때, 다음 번호표로 이동
-                expectedNumber++;
-                i--; // 현재 위치에서 다음 위치로 이동
+    static String solution(int[] line) {
+        int targetNumber = 1;
+        Stack<Integer> tmpStack = new Stack<>();
+
+        for (int i = 0; i < line.length; i++) {
+            if (line[i] != targetNumber) {
+                if (!tmpStack.isEmpty() && tmpStack.peek() == targetNumber) {
+                    tmpStack.pop();
+                    i--;
+                    targetNumber++;
+                } else {
+                    tmpStack.push(line[i]);
+                }
+            } else {
+                targetNumber++;
             }
         }
-        return expectedNumber == N + 1; // 모든 학생이 이동했는지 확인
+
+        while (!tmpStack.isEmpty()) {
+            if (tmpStack.pop() != targetNumber) {
+                return "Sad";
+            }
+            targetNumber++;
+        }
+
+        return "Nice";
     }
 }
