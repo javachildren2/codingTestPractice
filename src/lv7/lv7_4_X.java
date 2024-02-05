@@ -8,6 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class lv7_4 {
+    //2485 가로수
     private static int gcd(int a, int b) {
         while (b != 0) {
             int temp = b;

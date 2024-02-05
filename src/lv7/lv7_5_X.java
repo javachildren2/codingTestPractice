@@ -9,7 +9,7 @@ public class lv7_5 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int T = Integer.parseInt    (br.readLine());
+        int T = Integer.parseInt(br.readLine());
 
         while (T-- > 0) {       //while (T-- > 0)는 T가 0보다 큰 동안에 반복문을 실행하는 구문.
             long n = Long.parseLong(br.readLine());

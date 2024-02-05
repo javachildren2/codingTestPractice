@@ -17,10 +17,11 @@ public class lv7_6 {
         boolean[] isNotPrime = new boolean[N + 1];
         isNotPrime[0] = isNotPrime[1] = true;
 
-        for (int i = 2; i * i <= N; i++) {                  //(19-25)행 중요함
+        for (int i = 2; i * i <= N; i++) {                  //(20-25)행 중요함
             if (!isNotPrime[i]) {
                 for (int j = i * i; j <= N; j += i) {
                     isNotPrime[j] = true;
+                    System.out.println("j = " + j);
                 }
             }
         }
